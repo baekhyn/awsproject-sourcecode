@@ -1,7 +1,7 @@
 REGION = 'ap-northeast-2'
 ECR_REGISTRY_URL = '133713477530.dkr.ecr.ap-northeast-2.amazonaws.com'
 AWS_CREDENTIAL_ID = 'aws-credential'
-ECR_IMAGE = 'aws-tomcat'
+ECR_IMAGE = "aws-tomcat"
 
 node{
 

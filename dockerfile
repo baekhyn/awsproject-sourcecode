@@ -10,8 +10,8 @@ RUN apt-get install -y --no-install-recommends
 RUN apt-get install -y gnupg dirmngr
 RUN apt-get install -y wget ca-certificates
 
-RUN wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.91/bin/apache-tomcat-8.5.91.tar.gz;
-RUN tar -xf apache-tomcat-8.5.91.tar.gz  --strip-components=1;
+RUN wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.93/bin/apache-tomcat-8.5.93.tar.gz;
+RUN tar -xf apache-tomcat-8.5.93.tar.gz  --strip-components=1;
 
 RUN find . -name "*.bat" -exec rm -rf {} \;
 RUN rm -rf *tomcat*.tar.gz;
